@@ -1,4 +1,4 @@
-# plur: Pre-trained Language Models for Under-represented Languages
+# plur: **P**re-trained **L**anguage Models for **U**nder-**r**epresented Languages
 
 This repository contains pre-trained language models for under-represented languages in NLP.
 
@@ -104,3 +104,10 @@ We report averaged accuracy over three runs.
 ## WikiANN
 
 Experiments on the WikiANN dataset for Basque are coming soon.
+
+# ToDo
+
+* [ ] WikiANN experiments
+* [ ] Run NER and PoS tagging experiments on (already) trained XLNet models
+* [ ] Add training scripts
+* [ ] Play around with `allennlp` to add configuration for training NER and PoS tagging models
