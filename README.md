@@ -65,16 +65,16 @@ We did not decrease the initial learning rate during training.
 
 ### Release:
 
-* [Forward Flair Embeddings](https://schweter.eu/cloud/flair-lms/lm-eu-large-forward-v0.2.pt)
-* [Backward Flair Embeddings](https://schweter.eu/cloud/flair-lms/lm-eu-large-backward-v0.2.pt)
+* [Forward Flair Embeddings](https://schweter.eu/cloud/flair-lms/lm-eu-opus-large-forward-v0.2.pt)
+* [Backward Flair Embeddings](https://schweter.eu/cloud/flair-lms/lm-eu-opus-large-backward-v0.2.pt)
 
 ### Flair import
 
 ```python
 from flair.embeddings import FlairEmbeddings
 
-embeddings_forward  = FlairEmbeddings("lm-eu-large-forward-v0.2.pt")
-embeddings_backward = FlairEmbeddings("lm-eu-large-backward-v0.2.pt")
+embeddings_forward  = FlairEmbeddings("lm-eu-opus-large-forward-v0.2.pt")
+embeddings_backward = FlairEmbeddings("lm-eu-opus-large-backward-v0.2.pt")
 ```
 
 ## NER
