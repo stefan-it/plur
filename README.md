@@ -103,8 +103,8 @@ We use the Basque Universal Dependencies in version 1.2 for comparison.
 The corpus has a total of 5,396 training, 1,798 development and 1,799 test sentences.
 We report averaged accuracy over three runs.
 
-| Language model   | Run 1 | Run 2 | Run 3 | Final F-Score
-| ---------------- | ----- | ----- | ----- | -------------
+| Language model   | Run 1 | Run 2 | Run 3 | Final Accuracy
+| ---------------- | ----- | ----- | ----- | --------------
 | ELMo             | 97.35 | 97.33 | 97.38 | 97.35
 | Flair Embeddings | 97.60 | 97.67 | 97.67 | **97.65**
 | mBERT uncased    | 95.06 | 94.62 | 94.70 | 94.79
@@ -199,8 +199,8 @@ vocabulary sizes and a fixed dimension of 300 for both Flair and ELMo models.
 
 ### Flair
 
-| BPE vocab | Run 1 | Run 2 | Run 3 | Final F-Score
-| --------- | ----- | ----- | ----- | -------------
+| BPE vocab | Run 1 | Run 2 | Run 3 | Final Accuracy
+| --------- | ----- | ----- | ----- | --------------
 | 200,000   | 92.31 | 91.55 | 92.46 | 92.11
 | 100,000   | 92.06 | 92.51 | 92.51 | 92.36
 | 50,000    | 92.51 | 92.61 | 93.11 | **92.74**
@@ -212,8 +212,8 @@ vocabulary sizes and a fixed dimension of 300 for both Flair and ELMo models.
 
 ### ELMo
 
-| BPE vocab | Run 1 | Run 2 | Run 3 | Final F-Score
-| --------- | ----- | ----- | ----- | -------------
+| BPE vocab | Run 1 | Run 2 | Run 3 | Final Accuracy
+| --------- | ----- | ----- | ----- | --------------
 | 200,000   | 91.91 | 91.45 | 92.76 | 92.04
 | 100,000   | 91.96 | 92.01 | 92.16 | 92.04
 | 50,000    | 91.96 | 92.46 | 91.75 | **92.06**
